@@ -1,6 +1,6 @@
 ![NASA](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1200px-NASA_logo.svg.png)
 
-# nasa_app
+# NASA app
 This is app is a better version of existing NASA mobile application in PlayStore and a redesign of it.
 # NASA API
 Nasa offers a free API and all data in this application are provided by Nasa API.
