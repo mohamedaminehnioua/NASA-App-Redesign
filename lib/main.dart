@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nasa_app/constants/colors.dart';
+import 'package:nasa_app/constants/fonts.dart';
 import 'package:nasa_app/utils/preferences.dart';
 
 import 'utils/bindings.dart';
@@ -25,6 +26,7 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: AppColors.blue,
+        fontFamily: AppFonts.interFamily,
       ),
       initialBinding: Binding(),
       home: const SplashScreen(),

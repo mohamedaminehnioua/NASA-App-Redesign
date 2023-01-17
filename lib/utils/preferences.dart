@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '../constants/colors.dart';
@@ -13,9 +12,9 @@ void appPreferences() {
   );
   // Status bar Color:
   SystemChrome.setSystemUIOverlayStyle(
-    const SystemUiOverlayStyle(
-      statusBarColor: AppColors.blue,
-      systemNavigationBarColor: Colors.white,
+    SystemUiOverlayStyle(
+      statusBarColor: AppColors.black.withOpacity(0.4),
+      systemNavigationBarColor: AppColors.black,
     ),
   );
 }
