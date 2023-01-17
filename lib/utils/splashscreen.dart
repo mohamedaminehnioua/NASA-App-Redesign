@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
-import 'package:nasa_app/views/home/home_view.dart';
+import 'package:nasa_app/views/root/root_view.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -17,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
       Future.delayed(
           const Duration(seconds: 4),
           () => Get.off(
-                () => const HomeView(),
+                () => const RootView(),
                 transition: Transition.fadeIn,
                 duration: const Duration(milliseconds: 500),
                 curve: Curves.easeIn,
